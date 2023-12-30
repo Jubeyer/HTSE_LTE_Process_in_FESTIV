@@ -7,7 +7,7 @@ Users can reconfigure any given N-R HES with minor modifications in the provided
 * To have the new optimization models containing HTSE-related constraints, replace the original .gms file in FESTIV repository.
 * Since, the set-up of FESTIV automatically retains the model formulated in the 'FESTIV_MODEL-master\MODEL_RULES\GAMS_Model_Files', please make sure to comment out some initial scripts in the FESTIV.m file and load the multi-timescale simulation parameter through loading a MATLAB workspace variable. You can follow the process used in the provided 'FESTIV_Secondary_Trial.m' file.
 ### Dataset
-The NREL-118 bus test network data was taken and modified to accommodate the proposed LTE process in an IES setting. 
+The NREL-118 bus test network data was taken and modified to accommodate the proposed HTSE process in an IES setting. 
 
 ### Environment & Necessary Software
 The framework has been built on the existing FESTIV framework. Users are recommended to install FESTIV as per the FESTIV user manual installation instructions. As of now the the scripts have been executed on CentOS only.
